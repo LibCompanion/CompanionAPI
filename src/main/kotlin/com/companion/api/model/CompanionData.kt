@@ -28,6 +28,6 @@ import java.sql.Timestamp
  */
 data class CompanionData(val timestamp: Timestamp,
                          val artists: List<Artist>,
-                         val models: List<Artwork>,
+                         val artworks: List<Artwork>,
                          val videos: List<Video>,
                          val audio: List<Audio>)
