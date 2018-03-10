@@ -17,7 +17,7 @@ gradle bootRun
 
 Proper API documentation is accessible via Swagger UI: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
-### License
+## License
 
 ```
 CompanionAPI is an RESTful Web Service that manages the data library for CompanionMR.
@@ -37,7 +37,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
 
-#### Media File Licenses
+### Media File Licenses
 
 ```
 Audio "audio0.ogg":
