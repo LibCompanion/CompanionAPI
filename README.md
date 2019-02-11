@@ -4,15 +4,25 @@ RESTful Web Service that manages the data library for [CompanionMR](https://gith
 
 ## Dependencies
 
-* Gradle
+* Gradle (included)
 * Java 8
 
 ## Usage
 
-Simply execute the gradle task 'bootRun' to start the Web Service:
+If you have Gradle installed simply execute the gradle task 'bootRun' to start the Web Service:
 
 ```
 gradle bootRun
+```
+
+If you do not have Gradle installed you can simply use the gradlew script:
+
+```
+// Windows
+gradlew.bat bootRun
+
+// Unix
+./gradlew bootRun
 ```
 
 Proper API documentation is accessible via Swagger UI: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
